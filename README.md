@@ -1,1 +1,1 @@
-# Lab1-Se-ales-EMG
+# Laboratorio-1-Señales
