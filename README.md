@@ -52,7 +52,27 @@ plt.title("Señal EMG-Neuropatía")
 plt.legend()
 plt.grid()
 plt.show()
+```
+Pues esta sección es esencial ya que permite la manipulación del sistema de archivos y directorios, para leer y manipular registros de datos biomédicos almacenados que en este caso se encuentra en formato PhysioNet, para la generación de gráficos en este caso de la señal EMG en el dominio del tiempo, utilizando la librería de matplotlib, se grafica la señal, incluyendo los ejes para indicar la unidad de tiempo y la amplitud (Caracteristicas estadísticas).
+Se calcula la media de la señal de dos formas:
 
+# 1.La Media
+a) Manualmente: Sumando todos los valores y dividiendo por el total de datos.
+image
+|Ecu 1: Formula para calcular la Media.|
+
+b) Usando Numpy.mean(), que proporciona un método más eficiente y rapido.
+
+#Media
+sumatoriadatos = 0
+for i in datos:
+    sumatoriadatos += i
+#datos sumados
+media=sumatoriadatos/info['sig_len']
+print(f"Media: {media}")
+
+mean=np.mean(datos)
+print(f"Media Numpy: {mean}")
 
 1) Investigación: ¿Qué es la Relación Señal‑Ruido ?
    
