@@ -1,16 +1,24 @@
-# Laboratorio señal 1 
+# Laboratorio 1- Analisis estadistico de una señal.
+Informe de laboratorio acerca del Análisis estadístico de una señal EMG enfocada en neuropatia.
+# RESUMEN
+En este laboratorio de Procesamiento Digital de Señales (PDS) se desarrolló un código en Python, ejecutado en Spyder, para analizar estadísticamente una señal electromiográfica (EMG) asociada a neuropatía, obtenida de la base de datos PhysioNet. Se calcularon parámetros como media, desviación estándar, coeficiente de variación e histogramas, complementados con funciones de probabilidad. Además, se evaluó el impacto de distintos tipos de ruido —gaussiano, impulso y artefacto— mediante el cálculo de la relación señal-ruido (SNR), con el fin de comprender cómo las perturbaciones afectan la calidad de las señales biomédicas.
 
-RESUMEN
-
-
-
-
-INTRODUCION 
-
+# INTRODUCION 
+El análisis estadístico de señales biomédicas permite caracterizar su comportamiento, identificar patrones y cuantificar variaciones relevantes para el diagnóstico clínico. En este laboratorio, correspondiente a la asignatura de Procesamiento Digital de Señales (PDS), se trabajó con una señal electromiográfica (EMG) asociada a neuropatía, obtenida de la base de datos PhysioNet. Se empleó Python (Spyder) para calcular parámetros estadísticos fundamentales y representar gráficamente la distribución de la señal. Asimismo, se introdujeron diferentes tipos de ruido con el fin de medir su efecto mediante la relación señal-ruido (SNR), reforzando así la comprensión del preprocesamiento y limpieza de señales en aplicaciones médicas.
 
 
+# ANALISIS ESTADISTICO DE LA SEÑAL
+# Señal (Emg) - Physio.Net:
 
+Para llevar a cabo esta práctica, comenzamos buscando una señal electromiográfica (EMG) disponible en PhysioNet, pues la señal que elegimos corresponde a un pasiente con una Neuropatia. Para ser más especificos, la condicion del Paciente (Neuropatia/Neuropatia Periferica), basicamente consiste en un problema de los nervios que produce dolor, adormecimiento, cosquilleo, hinchazón y debilidad muscular en distintas partes del cuerpo. Esto por lo general, comienza en las manos o los pies y empeora con el tiempo. El cáncer o su tratamiento, como la quimioterapia, pueden causar neuropatía. También pueden causarla las lesiones físicas, las infecciones, las sustancias tóxicas o las afecciones como diabetes, insuficiencia de los riñones o desnutrición. Por otro lado, en una señal electromiográfica (EMG) de un paciente con esta condicion, podríamos observar varias alteraciones en la actividad muscular, tales como:
 
+Disminución de la amplitud
+2.Aumento de la latencia: (Un retraso en la activación muscular causado por la conducción nerviosa más lenta o bloqueada).
+3.Actividad espontánea anormal
+4.Disminución de la frecuencia de activación
+5.Alteraciones en la reclutación de unidades motoras: (Se pueden ver cambios en la cantidad y el tamaño de los potenciales de unidad motora, indicando reinnervación o pérdida neuronal).
+Ahora bien, luego de tener presente esta informacion, seguimos para descargar los archivos .dat y .hea correspondientes a dicha señal. Con estos archivos en nuestro poder, importamos la señal a Python (Spyder) y empleamos la librería wfdb para leer y visualizar los datos, facilitando así su analisis.
+<img width="549" height="304" alt="image" src="https://github.com/user-attachments/assets/00082e8e-b63a-4029-8a97-c5b9138c7177" />
 
 
 1) Investigación: ¿Qué es la Relación Señal‑Ruido ?
