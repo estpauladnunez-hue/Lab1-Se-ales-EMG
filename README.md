@@ -27,6 +27,7 @@ Por todo lo anterior, es escencial que podamos realizar las mediciones que se re
 # Importacion de la señal y librerias:
 El análisis como tal de los datos de la señal se realiza por medio de la programación mencionada, esto junto a librerías en donde tenemos a Numpy y SciPy para poder calcular nuestros estadísticos descriptivos, pues nuestro código comienza con la implementación de las librerías necesarias para el óptimo funcionamiento de nuestro laboratorio:
 
+```python
 import os
 import wfdb
 import matplotlib.pyplot as plt
@@ -51,6 +52,7 @@ plt.title("Señal EMG-Neuropatía")
 plt.legend()
 plt.grid()
 plt.show()
+
 
 1) Investigación: ¿Qué es la Relación Señal‑Ruido ?
    
