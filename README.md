@@ -274,6 +274,8 @@ En conclusión, el ruido gaussiano fue el menos destructivo, mientras que el rui
 Para finalizar es bueno que se tenga presenta optimizar el SNR en las señales biomedicas, teniendo en cuenta que el rango ideal según la literatura para una señal EMG de calidad aceotable debe estar entre 15 dB y 30 dB para poder garantizar mediciones precisas y presentaciones gráficas fieles de la señal capturada, puesto que un valor elevado de SNR implica que la señal sea más clara en comparación con el ruido y un SNR bajo dificulta la identificación de caracteristicas relevantes debido a la presencia dominante del ruido.
 
 #señal fisiologica de contraccón muscular 
+<img width="1280" height="843" alt="image" src="https://github.com/user-attachments/assets/fc5d5b09-69cd-446b-be65-6160dacf9356" />
+
 
 # Conclusión
 Esta práctica permitió aplicar técnicas de análisis estadístico y procesamiento de señales sobre una señal EMG asociada a neuropatía, destacando la importancia de evaluar y mejorar la calidad de señales biomédicas para optimizar diagnósticos en el área de la salud.
