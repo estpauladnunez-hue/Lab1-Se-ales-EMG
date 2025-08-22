@@ -274,12 +274,26 @@ En conclusión, el ruido gaussiano fue el menos destructivo, mientras que el rui
 Para finalizar es bueno que se tenga presenta optimizar el SNR en las señales biomedicas, teniendo en cuenta que el rango ideal según la literatura para una señal EMG de calidad aceotable debe estar entre 15 dB y 30 dB para poder garantizar mediciones precisas y presentaciones gráficas fieles de la señal capturada, puesto que un valor elevado de SNR implica que la señal sea más clara en comparación con el ruido y un SNR bajo dificulta la identificación de caracteristicas relevantes debido a la presencia dominante del ruido.
 
 #señal fisiologica de contraccón muscular 
+
 <img width="1280" height="843" alt="image" src="https://github.com/user-attachments/assets/fc5d5b09-69cd-446b-be65-6160dacf9356" />
+La señal muestra la actividad bioeléctrica generada por las fibras musculares del antebrazo durante contracciones voluntarias. Se observan variaciones en la amplitud asociadas a la activación y relajación del músculo, reflejando la suma de potenciales de acción que se producen cuando se incrementa o disminuye la fuerza aplicada.
+
+
+Histograma 
+<img width="846" height="505" alt="image" src="https://github.com/user-attachments/assets/b2f464a6-c75e-4b36-99c9-332817062837" />
+
+Funcion de Probabilidad estimada 
+
+<img width="777" height="475" alt="image" src="https://github.com/user-attachments/assets/903a01ea-dc90-48e4-bb8d-7baa7c2c244f" />
+
+MEDIA:
+<img width="421" height="127" alt="image" src="https://github.com/user-attachments/assets/2717c11c-09b2-44cc-861a-2c5c6fa1f0a2" />
 
 
 # Conclusión
 Esta práctica permitió aplicar técnicas de análisis estadístico y procesamiento de señales sobre una señal EMG asociada a neuropatía, destacando la importancia de evaluar y mejorar la calidad de señales biomédicas para optimizar diagnósticos en el área de la salud.
 Los resultados obtenidos muestran que el análisis de parámetros como la media, desviación estándar, coeficiente de variación, curtosis y la relación señal-ruido (SNR) permite identificar de forma precisa el impacto de distintos tipos de ruido en la señal. Además, se evidencia que algunos ruidos, como el de red (60 Hz), son más críticos y requieren estrategias específicas de filtrado y acondicionamiento.
+
 
 # Librerías utilizadas
 os → Ubicación y manejo de directorios.
